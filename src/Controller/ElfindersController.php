@@ -37,7 +37,7 @@ class ElfindersController extends AppController
      */
     public function elfinder()
     {
-        $this->viewBuilder()->layout('elfinder');
+        $this->viewBuilder()->setLayout('elfinder');
         $connectorUrl = Router::url('/cakephp-tinymce-elfinder/Elfinders/connector');
         
         $configOptions = Configure::read('TinymceElfinder');
