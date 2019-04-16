@@ -19,7 +19,7 @@ class ElfindersController extends AppController
             'connector'
         ];
         
-        if (in_array($this->request->getParam(['action']), $actions)) {
+        if (in_array($this->request->getParam('action'), $actions)) {
             if (!empty($this->Csrf)) {
                 $this->eventManager()->off($this->Csrf);
             }
