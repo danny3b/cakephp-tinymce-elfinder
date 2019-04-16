@@ -1,5 +1,5 @@
 {
-    "name": "hashmode/cakephp-tinymce-elfinder",
+    "name": "danny3b/cakephp-tinymce-elfinder",
     "description": "Elfinder file manager integration with tinymce 4.x for cakephp 3.x",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "tinymce", "elfinder", "upload", "image", "file", "manager"],
