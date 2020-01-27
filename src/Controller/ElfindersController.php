@@ -8,7 +8,11 @@ use Cake\Core\Exception\Exception;
 use Cake\Event\Event;
 
 class ElfindersController extends AppController
-{
+{   
+    public function isAuthorized($user)
+    {
+        return true;
+    }
     
     public function beforeFilter(Event $event)
     {
